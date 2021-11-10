@@ -3,7 +3,7 @@
 window.prompt('Do you head left or right?')
 
 let firstAnswer  = window.prompt('Do you head left or right?')
-if(firstAnswer === 'left'){
+if(firstAnswer === 'left') {
     console.log(firstAnswer)
     let secondAnswer = window.prompt(`You come across a stray cat. 
 It scampers off down a small hole, just large enough for you to crawl through. 
@@ -57,11 +57,11 @@ console.log(secondAnswer); // continue or follow
 On the other side of him, you see a shiny chest of treasure. Another path would 
 lead you away from the dragon altogether. Which path do you take?(please choose chest or path)`)
 
-    console.log(secondAnswerPathB); // chest or path
+    
 
     if (secondAnswerPathB === 'chest') {
 
-        console.log(secondAnswerPathB);
+        console.log(secondAnswerPathB); // chest or path
 
         let thirdAnswerPathBStoryA = window.prompt('The dragon wakes up and sits upright. You only have a moment to respond, to stay or run')
 
