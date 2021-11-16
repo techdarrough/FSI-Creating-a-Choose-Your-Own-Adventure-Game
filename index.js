@@ -1,4 +1,4 @@
-// Your Code Here
+// simple choose your own adventure game
 
 window.prompt('Do you head left or right?')
 
@@ -12,12 +12,12 @@ Do you follow it, or continue on your path?`)
 
 console.log(secondAnswer); // continue or follow
 
-    if (secondAnswer === 'follow'){
+    if (secondAnswer == 'follow'){
         let thirdAnswerStoryA = window.prompt('You follow the cat to a colony of cats, nestled in a fort of warm blankets and subsisting off of inexplicably warm soup. They are content with you staying, but you wonder if you shoudl alert the world to this magical safe haven.')
 
             console.log(thirdAnswerStoryA); // stay or spread the word
 
-            if (thirdAnswerStoryA === 'stay') {
+            if (thirdAnswerStoryA == 'stay') {
 
                 let storyAend = window.alert('You live happily amongst the cats for the rest of your days.')
 
@@ -46,10 +46,10 @@ console.log(secondAnswer); // continue or follow
 
             }
 
-    }
+    }  //end left path
 
 
-} else if(firstAnswer === 'right') {
+} else if(firstAnswer === 'right') {  // begin right path
 
     console.log(firstAnswer)
 
@@ -79,7 +79,7 @@ lead you away from the dragon altogether. Which path do you take?(please choose 
     } else if (secondAnswerPathB === 'path') {
 
         let thirdAnswerPathBStoryB = window.prompt('After running then walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?')
-            console.log(thirdAnswerPathBStoryB);
+            console.log(thirdAnswerPathBStoryB);  // draw it or pick it
 
             if (thirdAnswerPathBStoryB === 'draw it'){
 
